@@ -1,0 +1,28 @@
+{
+  "name": "njasm/yii2-soundcloud",
+  "description": "Soundcloud.com API Component for yii2 framework",
+  "type": "yii2-extension",
+  "keywords": ["yii2", "yii", "soundcloud", "api"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nelson J Morais",
+      "email": "njmorais@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/njasm/yii2-soundcloud/issues",
+    "source": "https://github.com/njasm/yii2-soundcloud"
+  },
+  "require": {
+    "yii2mod/yii2-framework": "*",
+    "yiisoft/yii2-composer": "*",
+    "njasm/soundcloud": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii2mod\\rbac\\": ""
+    }
+  }
+}
