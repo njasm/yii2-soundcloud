@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Njasm\\Soundcloud\\yii2": ""
+      "Njasm\\Soundcloud\\yii2\\": ""
     }
   }
 }
