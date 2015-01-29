@@ -14,13 +14,30 @@ use yii\base\InvalidConfigException;
  * @see     http://www.github.com/njasm/yii2-soundcloud
  * @since   2.0
  *
- * @method  string                                      getAuthUrl()            getAuthUrl(array $params = array())
- * @method  \Njasm\Soundcloud\Request\ResponseInterface userCredentials()       userCredentials(string $username, string $password)
- * @method  \Njasm\Soundcloud\Request\ResponseInterface codeForToken()          codeForToken(string $code, array $params = array())
- * @method  \Njasm\Soundcloud\Request\ResponseInterface refreshAccessToken()    refreshAccessToken($refreshToken = null, array $params = array())
- * @method  \Njasm\Soundcloud\Request\ResponseInterface download()              download($trackID, $download = false)
- * @method  \Njasm\Soundcloud\Request\ResponseInterface upload()                upload($trackPath, array $params = array())
+ * @method  string  getAuthUrl()    getAuthUrl(array $params = array())
+ * @method  \Njasm\Soundcloud\Request\Response  userCredentials()   userCredentials(string $username, string $password)
+ * @method  \Njasm\Soundcloud\Request\Response  codeForToken()  codeForToken(string $code, array $params = array())
+ * @method  \Njasm\Soundcloud\Request\Response  refreshAccessToken()    refreshAccessToken($refreshToken = null, array $params = array())
+ * @method  \Njasm\Soundcloud\Request\Response  download()  download($trackID, $download = false)
+ * @method  \Njasm\Soundcloud\Request\Response  upload()    upload($trackPath, array $params = array())
  *
+ * @method  string  getAuthClientID()   getAuthClientID()
+ * @method  string|null getAuthToken()  getAuthToken()
+ * @method  string|null getAuthScope()  getAuthScope()
+ * @method  string|null getExpires()    getExpires()
+ * @method  void setAccessToken()   setAccessToken(string $accessToken)
+ * @method  void setAuthScope()   setAuthScope(string $scope)
+ * @method  void setAuthExpires()   setAuthExpires(string $expires)
+ * @method  void setRefreshToken()  setRefreshToken(string $refreshToken)
+ * @method  \Njasm\Soundcloud\Soundcloud    get()   get(string $path, array $params = array())
+ * @method  \Njasm\Soundcloud\Soundcloud    put()   put(string $path, array $params = array())
+ * @method  \Njasm\Soundcloud\Soundcloud    post()  post(string $path, array $params = array())
+ * @method  \Njasm\Soundcloud\Soundcloud    delete()    delete(string $path, array $params = array())
+ * @method  \Njasm\Soundcloud\Soundcloud    setParams() setParams(array $params = array())
+ * @method  \Njasm\Soundcloud\Request\Response  request()   request(array $params = array())
+ * @method  \Njasm\Soundcloud\Request\Response|null getCurlResponse()   getCurlResponse()
+ * @method  \Njasm\Soundcloud\Soundcloud    asXml() asXml()
+ * @method  \Njasm\Soundcloud\Soundcloud    asJson()    asJson()
  */
 class Soundcloud extends Component
 {
