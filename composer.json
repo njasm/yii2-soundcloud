@@ -2,7 +2,7 @@
   "name": "njasm/yii2-soundcloud",
   "description": "Soundcloud.com API Component for yii2 framework",
   "type": "yii2-extension",
-  "keywords": ["yii2", "yii", "soundcloud", "api"],
+  "keywords": ["yii2", "yii", "soundcloud", "api", "yii2-soundcloud"],
   "license": "MIT",
   "authors": [
     {
